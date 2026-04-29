@@ -19,7 +19,7 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 
 ### Prompts
 
-# System Message
+#### System Message
 ```code
 system_message = {
                                 'role':'system',
@@ -42,4 +42,20 @@ system_message = {
                 }}
 
             """}
+```
+#### User message (scenario itself)
+```code
+scenario = {
+                    'role': 'user',
+                    'content': f"""
+                    The per-item ratings are presente below:
+                    ### BEGIN TABLE ###
+                    {result}
+                    ### END TABLE ###
+
+                    Think about the answer internally, but only output the final JSON object (containing recommendation ranking and explanation). Do not include any additional text or python code. 
+                    Return STRICT JSON. Do not use markdown.
+                    """
+
+                }
 ```
