@@ -17,6 +17,13 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 └── 📄 README.md                  # documentation
 ```
 
+
+### Datasets
+Domain datasets were only used to extract item names to assign within groups.
+Included domains were movies (low risk) and tourism (high risk).
+groups.csv includes the actual groups used in the study (user x item matrices) (with anonymized item identifiers)
+
+
 ### Prompts
 Prompts were identical for each of the four LLMs. Prompts consist of two parts: system message (overall system/scenario instructions) and user message (the scenario itself).
 
