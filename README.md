@@ -68,3 +68,11 @@ scenario = {
 
                 }
 ```
+
+### LLM inference parameters
+Constant temperature across all runs in results.csv and full_results.csv
+
+```code
+temperature = 0.5
+max_completion_tokens=1000
+```
