@@ -5,7 +5,7 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 ### Content
 
 ```text
-├── 📁 datasets                   #
+├── 📁 datasets                   
 │   ├── groups.csv                # group dataset used in the study
 │   ├── Tourist_destinations.csv  # Tourist destination dataset
 │   └── movielens_dataset 
@@ -18,6 +18,8 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 ```
 
 ### Prompts
+Prompts were identical for each of the four LLMs. Prompts consist of two parts: system message (overall system/scenario instructions) and user message (the scenario itself).
+
 
 #### System Message
 ```code
