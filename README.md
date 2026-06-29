@@ -5,6 +5,8 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 ### Content
 
 ```text
+├── Generation.ipynb              # Full code to generate groups and generate LLM output using Ollama
+├── Analysis.ipynb                # Full code to analyze the data generated using the code found in Generation.ipynb. All visuals and regression from the paper are        included.
 ├── datasets                   
 │   ├── groups.csv                # group dataset used in the study
 │   ├── Tourist_destinations.csv  # Tourist destination dataset
