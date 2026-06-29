@@ -78,3 +78,5 @@ Constant temperature across all runs in results.csv and full_results.csv
 temperature = 0.5
 max_completion_tokens=1000
 ```
+### Output
+The compressed folder contains both the direct results file (results.csv) and the full file used for analysis (full_results.csv). The latter includes the full documentation of the explanation categories. These files are derived from the generation code.
