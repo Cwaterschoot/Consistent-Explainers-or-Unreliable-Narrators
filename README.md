@@ -80,3 +80,27 @@ max_completion_tokens=1000
 ```
 ### Output
 The compressed folder contains both the direct results file (results.csv) and the full file used for analysis (full_results.csv). The latter includes the full documentation of the explanation categories. These files are derived from the generation code.
+
+
+### Quick start
+## Installation & Setup
+
+To replicate the evaluations and pipeline runs, ensure you are running **Python 3.10+**. 
+
+#  Environment Setup
+
+Clone this repository and install the necessary data manipulation, visualization, and API clients:
+
+```bash
+# Clone the repository
+git clone [https://github.com/Cwaterschoot/Consistent-Explainers-or-Unreliable-Narrators.git](https://github.com/Cwaterschoot/Consistent-Explainers-or-Unreliable-Narrators.git)
+cd Consistent-Explainers-or-Unreliable-Narrators
+
+# Create and activate a clean virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
