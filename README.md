@@ -98,7 +98,7 @@ cd Consistent-Explainers-or-Unreliable-Narrators
 
 # Create and activate a clean virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+source venv/bin/activate 
 
 # Install dependencies
 pip install -r requirements.txt
