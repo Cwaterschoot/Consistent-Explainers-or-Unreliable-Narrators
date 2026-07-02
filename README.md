@@ -83,11 +83,11 @@ The compressed folder contains both the direct results file (results.csv) and th
 
 
 ### Quick start
-## Installation & Setup
+##### Installation & Setup
 
 To replicate the evaluations and pipeline runs, ensure you are running **Python 3.10+**. 
 
-#  Environment Setup
+#####  Environment Setup
 
 Clone this repository and install the necessary data manipulation, visualization, and API clients:
 
