@@ -24,6 +24,7 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 └── README.md                     # documentation
 ```
 
+![PDF Pipeline Diagram](pipeline.pdf)
 
 ### Datasets
 Domain datasets were only used to extract item names to assign within groups.
