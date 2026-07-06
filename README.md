@@ -16,6 +16,11 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 ├── strats.py                     # Utils: Social choice-based aggregation functions
 ├── config_gen.py                 # Utils: group configuration generation functions 
 ├── output.zip                    # Compressed file containing both LLM output file (results.csv) and final results containing explanation categories (full_results.csv)
+├── Real_world_data                  
+│   ├── group_choices.csv         # group choices data
+│   ├── group_composition.pkl     # group formation data
+│   ├── validation.ipynb          # Validation code for loading real groups, generating LLM recommendations and summarizing NDCG results
+│   └── ratings.csv               # ratings data from individuals (from real groups)
 └── README.md                     # documentation
 ```
 
@@ -81,6 +86,17 @@ max_completion_tokens=1000
 ### Output
 The compressed folder contains both the direct results file (results.csv) and the full file used for analysis (full_results.csv). The latter includes the full documentation of the explanation categories. These files are derived from the generation code.
 
+
+### Real_world_data
+In section 5.4, we validate our experiments on a smaller dataset containing real groups. You find the full dataset (open-source) for this validation. This data comes from experimentation in the literature:
+
+[1] Delic, A., Neidhardt, J., Nguyen, T.N. and Ricci, F., 2018. An observational user study for group recommender systems in the tourism domain. Information Technology & Tourism, 19(1), pp.87-116.
+
+[2] Delic, A., Neidhardt, J., Nguyen, T.N., Ricci, F., Rook, L., Werthner, H. and Zanker, M., 2016, September. Observing group decision making processes. In Proceedings of the 10th ACM conference on recommender systems (pp. 147-150).
+
+The dataset is also accessible via the following repository: https://github.com/barnap/group-recommenders-offline-evaluation/tree/main/preprocessed_tourism_dataset
+
+Validation.ipynb contains the full code for this additional analysis, including LLM inference and data transformation to fit our previously used prompts/schemas. All inference was identical to previous experimentation regarding models, prompts and parameters.
 
 ### Quick start
 ##### Installation & Setup
