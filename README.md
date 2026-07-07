@@ -21,6 +21,9 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 │   ├── group_composition.pkl     # group formation data
 │   ├── validation.ipynb          # Validation code for loading real groups, generating LLM recommendations and summarizing NDCG results
 │   └── ratings.csv               # ratings data from individuals (from real groups)
+├── repeated_inference              
+│   ├── results-stability.csv     # repeated runs
+│   ├── stability-inference.ipynb # code for generating repeated runs as well as calculating table in section 5.5
 └── README.md                     # documentation
 ```
 
@@ -98,6 +101,10 @@ In section 5.4, we validate our experiments on a smaller dataset containing real
 The dataset is also accessible via the following repository: https://github.com/barnap/group-recommenders-offline-evaluation/tree/main/preprocessed_tourism_dataset
 
 Validation.ipynb contains the full code for this additional analysis, including LLM inference and data transformation to fit our previously used prompts/schemas. All inference was identical to previous experimentation regarding models, prompts and parameters.
+
+### Repeated runs for inference stability
+The folder repeated_inference contains the required documentation to generate repeated runs discussed in Section 5.5
+
 
 ### Quick start
 ##### Installation & Setup
