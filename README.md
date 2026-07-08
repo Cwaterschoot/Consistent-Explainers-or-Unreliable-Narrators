@@ -4,7 +4,7 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 ## Table of Contents
 
 * [Overview](#overview)
-* [Repository Structure](#repository-structure)
+* [Repository Structure](#content)
 * [Datasets](#datasets)
 * [Prompts](#prompts)
     * [System Message](#system-message)
