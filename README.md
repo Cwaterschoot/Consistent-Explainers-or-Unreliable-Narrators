@@ -1,6 +1,21 @@
 # Consistent Explainers or Unreliable Narrators
 Repository for the paper: Consistent Explainers or Unreliable Narrators: Systematic Differences in Consistency and Sensitivity Across Large Language Models for Group Recommendations
 
+## Table of Contents
+
+* [Overview](#overview)
+* [Repository Structure](#repository-structure)
+* [Datasets](#datasets)
+* [Prompts](#prompts)
+    * [System Message](#system-message)
+    * [User Message](#user-message)
+* [LLM Inference Parameters](#llm-inference-parameters)
+* [Output](#output)
+* [Real-world Data](#real_world_data)
+* [Repeated Runs for Inference Stability](#repeated-runs-for-inference-stability)
+* [Quick Start](#quick-start)
+    * [Installation & Setup](#installation--setup)
+    * [Environment Setup](#environment-setup)
 
 ### Content
 
