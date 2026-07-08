@@ -37,7 +37,8 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 │   ├── validation.ipynb          # Validation code for loading real groups, generating LLM recommendations and summarizing NDCG results
 │   └── ratings.csv               # ratings data from individuals (from real groups)
 ├── repeated_inference              
-│   ├── results-stability.csv     # repeated runs
+│   ├── results-stability.csv     # repeated runs at temperature 0.5
+│   ├── results-stability-temp0   # repeated runs at temperature 0
 │   ├── stability-inference.ipynb # code for generating repeated runs as well as calculating table in section 5.5
 └── README.md                     # documentation
 ```
