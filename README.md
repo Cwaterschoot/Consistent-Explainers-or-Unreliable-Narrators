@@ -8,7 +8,7 @@ Repository for the paper: Consistent Explainers or Unreliable Narrators: Systema
 * [Datasets](#datasets)
 * [Prompts](#prompts)
     * [System Message](#system-message)
-    * [User Message](#user-message)
+    * [User Message](#prompts)
 * [LLM Inference Parameters](#llm-inference-parameters)
 * [Output](#output)
 * [Real-world Data](#real_world_data)
